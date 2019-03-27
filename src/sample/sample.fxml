@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="shotFired" minWidth="3000.0" prefHeight="500.0" prefWidth="3000.0" styleClass="pane" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="bgImg" fitHeight="496.0" fitWidth="3000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/bg.png" />
+         </image></ImageView>
+      <Label fx:id="Label1" layoutX="138.0" layoutY="14.0" text="Label">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
